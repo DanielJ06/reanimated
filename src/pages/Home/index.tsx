@@ -38,6 +38,13 @@ const Home: React.FC = () => {
         <Text style={styles.buttonText} >Worklets</Text>
         <AntDesign name="right" size={24} color="black" />
       </TouchableOpacity>
+      <TouchableOpacity 
+        style={styles.button} 
+        onPress={()=>navigation.navigate('PanGesture')}
+      >
+        <Text style={styles.buttonText} >PanGesture</Text>
+        <AntDesign name="right" size={24} color="black" />
+      </TouchableOpacity>
     </View>
   );
 }
